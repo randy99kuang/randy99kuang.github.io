@@ -1,21 +1,21 @@
 body {
     font-family: helvetica;
-  }
-  
-  ul {
+}
+
+ul {
     font-family: monospace;
-  }
+}
 
-  li {
+li {
     list-style: circle;
-  }
+}
 
-  .list {
+.list {
     list-style: square;
-  }
+}
   
-  #date {
+#date {
     font-size: 12px;
     font-style: italic;
     font-weight: bold;
-  }
+}
