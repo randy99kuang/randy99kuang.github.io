@@ -10080,6 +10080,7 @@ button.bg-dark:focus {
 
 .font-weight-bold {
   font-weight: 700 !important;
+  font-size: 1.5rem;
 }
 
 .font-weight-bolder {
