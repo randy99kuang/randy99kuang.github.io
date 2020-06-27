@@ -8083,7 +8083,7 @@ button.bg-dark:focus {
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
 }
 
 .shadow-none {
@@ -10403,4 +10403,11 @@ a.text-dark:hover, a.text-dark:focus {
   width: 40%;
   margin-top: 8px;
   float: right;
+}
+/* For Publication HTML page   */
+.publication-images {
+  width: 11.3%; 
+  height: 11.3%;
+  overflow: hidden;
+  margin-top: 1%
 }
