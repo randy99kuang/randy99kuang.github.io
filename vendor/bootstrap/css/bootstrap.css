@@ -264,6 +264,27 @@ sup {
   top: -.5em;
 }
 
+.a-overlay {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.a-overlay:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.a-overlay:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.a-overlay:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 a {
   color: #007bff;
   text-decoration: none;
@@ -316,6 +337,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  border-spacing: 50px;
 }
 
 caption {
@@ -10604,4 +10626,20 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#white-text {
+  color: white;
+}
+
+#white-text a:link {
+  color: white;
+}
+
+#white-text a:visited
+
+#white-text a:hover
+
+#white-text a:active {
+  color: white;
 }

@@ -4,5 +4,9 @@
 
 ### To do list
 1. Compress all images that aren't being used as backgrounds 
-2. Turn all emails into links 
-3. Fix Calendar Page
+4. Retake background photo (maybe include building + sky, instead of building + ground)
+5. Add more stuff to home page
+6. Add to News/Join Us pages
+7. Grind through Publications Page
+8. Add old students to People page
+9. Fix problem with uneven People container sizes
