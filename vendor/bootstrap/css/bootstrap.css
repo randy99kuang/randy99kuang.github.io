@@ -10512,3 +10512,96 @@ a.text-dark:hover, a.text-dark:focus {
   overflow: hidden;
   margin-top: 1%
 }
+
+
+/*For People Page */
+
+/* This is the actual image */
+.textOverImage{
+  width:300px;
+  height:300px;
+  display:inline-block;
+  background-size:cover;
+  border-radius:4px;
+  margin:4px;
+  position: relative;;
+  cursor:pointer;
+  overflow:hidden;
+}
+
+/* This is to hide the check box */
+.textOverImage > input{
+  display:none;
+}
+
+
+.textOverImage > div,.textOverImage > h2{
+  position:absolute;
+  background-color:rgba(255,255,255,0.8);
+  bottom:20px;
+  left:4px;
+  right:4px;
+  border-radius:4px;
+  padding:8px;
+  overflow:hidden;
+  opacity:0;
+  transition:0.3s;
+}
+
+
+/* For both boxes  */
+.textOverImage:hover > h2,.textOverImage > input:checked + h2 + div{
+  bottom:10px;
+  opacity:1;
+}
+
+/* This is what happens to hovered title after we click */
+.textOverImage > input:checked + h2{
+  bottom:-20px;
+  opacity:0;
+}
+
+.textOverImage > h2{
+  margin:0;
+}
+
+.photo-container {
+  position: relative;
+  /* width: 50%; */
+}
+
+.image-block {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 00;
+  bottom: 00;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6c757d;
+  
+}
+
+.photo-container:hover .overlay {
+  opacity: 0.9;
+}
+
+.people-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
