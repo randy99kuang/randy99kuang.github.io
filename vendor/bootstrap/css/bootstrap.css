@@ -338,6 +338,7 @@ svg {
 table {
   border-collapse: collapse;
   border-spacing: 50px;
+  margin-bottom: 20px;
 }
 
 caption {
@@ -10210,6 +10211,7 @@ button.bg-dark:focus {
 .font-weight-bold {
   font-weight: 700 !important;
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 .font-weight-bolder {
@@ -10218,6 +10220,7 @@ button.bg-dark:focus {
 
 .font-italic {
   font-style: italic !important;
+  margin-bottom: 0;
 }
 
 .text-white {
