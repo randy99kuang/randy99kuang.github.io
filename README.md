@@ -4,3 +4,5 @@
 
 ### To do list
 1. Compress all images that aren't being used as backgrounds 
+2. Turn all emails into links 
+3. Fix Calendar Page
