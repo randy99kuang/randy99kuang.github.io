@@ -10629,6 +10629,8 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  /* overflow: hidden;
+  white-space: nowrap; */
 }
 
 #white-text {
