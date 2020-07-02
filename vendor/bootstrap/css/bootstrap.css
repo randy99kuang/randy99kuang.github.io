@@ -10534,10 +10534,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 /* For Publication HTML page   */
 .publication-images {
-  width: 11.3%; 
-  height: 11.3%;
-  overflow: hidden;
-  margin-top: 1%
+  width: 12%; 
+  height: 12%;
+  display: inline-block;
 }
 
 
@@ -10649,4 +10648,20 @@ a.text-dark:hover, a.text-dark:focus {
 
 #white-text a:active {
   color: white;
+}
+
+#black-text {
+  color: black;
+}
+
+#black-text a:link {
+  color: black;
+}
+
+#black-text a:visited
+
+#black-text a:hover
+
+#black-text a:active {
+  color: black;
 }
