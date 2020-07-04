@@ -9,3 +9,6 @@
 6. Add to News/Join Us pages
 7. Grind through Publications Page
 9. Fix problem with uneven People container sizes
+10. Improve email/scholar/research icons
+11. Add students' research interests to people page
+12. Try using "vh" and "vw" in CSS to make website more mobile friendly
