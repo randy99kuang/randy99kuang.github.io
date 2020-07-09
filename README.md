@@ -9,9 +9,8 @@
 6. Add to News/Join Us pages
 7. Grind through Publications Page
 9. Fix problem with uneven People container sizes
-10. Improve email/scholar/research icons
-11. Add students' research interests to people page
+10. ~~Improve email/scholar/research icons~~
+11. ~~Add students' research interests to people page~~
 12. Try using "vh" and "vw" in CSS to make website more mobile friendly
-13. Fix spacing on overlay
-14. See if we can reuse HTML code, especially for the navigation bar, people page, and publications page
-15. Use CSS custom variables to set colors for easy change
+13. ~~See if we can reuse HTML code, especially for the navigation bar, people page, and publications page~~
+14. Use CSS custom variables to set colors for easy change
