@@ -60,7 +60,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(255, 215, 0, 0.9);
+  background-color: var(--gold);
 }
 
 /* Caption text */
@@ -139,6 +139,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --gold: #D4AF37;
   --primaryGray:#343a40; 
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -4409,7 +4410,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: var(--light);
   pointer-events: none;
   cursor: default;
 }
@@ -4429,11 +4430,11 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: var(--light) var(--light) var(--light);
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: var(--light);
   background-color: transparent;
   border-color: transparent;
 }
@@ -4441,7 +4442,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   /* color: #495057; */
-  color: #4a4957; 
+  color: var(--light); 
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4802,22 +4803,22 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--light);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--light);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--light);
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active-nav > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: var(--light);
 }
 
 .navbar-light .navbar-toggler {
@@ -4850,11 +4851,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--light);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--gold);
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -6947,7 +6948,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: var(--primaryGray) !important;
+  background-color: var(--dark) !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10131,6 +10132,7 @@ button.bg-dark:focus {
 
 .text-nowrap {
   white-space: nowrap !important;
+  overflow: hidden !important;
 }
 
 .text-truncate {
@@ -10724,7 +10726,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: var(--gold);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -10734,4 +10736,15 @@ a.text-dark:hover, a.text-dark:focus {
   overflow: hidden;
   background-color: white;
   transition: max-height 0.2s ease-out;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.larger-text {
+  font-size: 120%;
 }
