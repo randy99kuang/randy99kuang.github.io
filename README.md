@@ -13,4 +13,4 @@
 11. ~~Add students' research interests to people page~~
 12. Try using "vh" and "vw" in CSS to make website more mobile friendly
 13. ~~See if we can reuse HTML code, especially for the navigation bar, people page, and publications page~~
-14. Use CSS custom variables to set colors for easy change
+14. ~~Use CSS custom variables to set colors for easy change~~
