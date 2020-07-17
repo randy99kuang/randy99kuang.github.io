@@ -175,7 +175,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background: url(images/creighton_hall.jpg) no-repeat center center fixed;
+  background: url(images/creighton_hall_sunset.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -10747,4 +10747,29 @@ a.text-dark:hover, a.text-dark:focus {
 
 .larger-text {
   font-size: 120%;
+}
+
+/* transparent card used on index html */ 
+.transparent-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 0.25rem;
+
+  align-items: center;
+
+  margin-top: 9rem;
+
+  margin-bottom: 10rem;
+
+  color: ghostwhite;
+  font-size: 9vw;
+  color: var(--light);
 }
