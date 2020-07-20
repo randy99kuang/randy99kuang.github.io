@@ -10787,3 +10787,19 @@ a.text-dark:hover, a.text-dark:focus {
       opacity: 1; 
    } 
 }  */
+
+.google-maps-picture {
+  margin-right: 5%;
+  margin-left: 0%;
+  width: 50%;
+  margin-top: 8px;
+  float: right;
+}
+
+.directions-text-box {
+  
+  margin-left:0%; 
+  margin-top: 5px;
+  width: 40%; 
+  float: left;
+}
