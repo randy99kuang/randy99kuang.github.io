@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -44,9 +45,6 @@
             <a class="nav-link" href="People.html">People</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="News.html">News</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="Resources.html">Resources</a>
           </li>
           <li class="nav-item">
@@ -58,9 +56,13 @@
   </nav>
 
   <div class="container">
-    <div class="transparent-card">
+    
+    <hr class="fade-out-bars-top">
+    <div class="transparent-card" id="myDIV">
       Kuang Research Lab
     </div>
+    <hr class="fade-out-bars-bottom">
+
   </div>
 
   <div class="container">
@@ -138,6 +140,8 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="slideshow.js"></script>
   <script src="fadeout.js"></script>
+  <script>document.body.className += ' fade-out';</script>
+
 
 </body>
 

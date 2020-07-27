@@ -10760,33 +10760,49 @@ a.text-dark:hover, a.text-dark:focus {
   word-wrap: break-word;
   background-color: rgba(255, 255, 255, 0);
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
 
   align-items: center;
-
-  margin-top: 9rem;
-
-  margin-bottom: 10rem;
 
   color: ghostwhite;
   font-size: 9vw;
   color: var(--light);
 
+  white-space: nowrap;
+  height: 15vw;
 
-  /* animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards;  */
-
+  /* opacity: 1;
+    
+  transition: opacity;
+  transition-duration: 1.5s;
+  transition-delay: 1s; */
 }
-/* @keyframes fadeInAnimation { 
-  0% { 
-      opacity: 0; 
-  } 
-  100% { 
-      opacity: 1; 
-   } 
-}  */
+.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+
+/* For the top bar above "Kuang Research Lab" on the index.html  */
+.fade-out-bars-top{
+  margin-top: 22vh; 
+  margin-bottom: 1.5vh; 
+  height: 7px; 
+  background-color: white; 
+  width: 80%;
+}
+
+/* For the bottom bar above "Kuang Research Lab" on the index.html  */
+.fade-out-bars-bottom{
+  margin-top: 0vh; 
+  height: 7px; 
+  background-color: white; 
+  margin-bottom: 22vh; 
+  width: 80%;
+}
+
+
 
 .google-maps-picture {
   margin-right: 5%;
