@@ -10231,6 +10231,12 @@ button.bg-dark:focus {
   margin-bottom: 0;
 }
 
+.font-weight-italic {
+  font-style: italic;
+  font-size: 1.15rem;
+  margin-bottom: 0;
+}
+
 .font-weight-bolder {
   font-weight: bolder !important;
 }
