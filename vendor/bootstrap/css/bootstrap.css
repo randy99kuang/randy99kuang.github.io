@@ -6951,6 +6951,12 @@ button.bg-light:focus {
   background-color: var(--dark) !important;
 }
 
+.page-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -10228,6 +10234,12 @@ button.bg-dark:focus {
 .font-weight-bold {
   font-weight: 700 !important;
   font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.font-weight-bold-small {
+  font-weight: 700 !important;
+  font-size: 1.3rem;
   margin-bottom: 0;
 }
 
