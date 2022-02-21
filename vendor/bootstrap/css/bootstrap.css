@@ -6952,7 +6952,7 @@ button.bg-light:focus {
 }
 
 .page-footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0px;
 }
