@@ -6951,8 +6951,9 @@ button.bg-light:focus {
   background-color: var(--dark) !important;
 }
 
+/* This makes the footer always at the bottom of the screen. */
 /* .page-footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0px;
 } */
