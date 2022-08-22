@@ -6951,11 +6951,11 @@ button.bg-light:focus {
   background-color: var(--dark) !important;
 }
 
-.page-footer {
+/* .page-footer {
   position: absolute;
   width: 100%;
   bottom: 0px;
-}
+} */
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
