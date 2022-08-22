@@ -10237,11 +10237,11 @@ button.bg-dark:focus {
   margin-bottom: 0;
 }
 
-.font-weight-bold-small {
+/* .font-weight-bold-small {
   font-weight: 700 !important;
   font-size: 1.3rem;
   margin-bottom: 0;
-}
+} */
 
 .font-weight-italic {
   font-style: italic;
