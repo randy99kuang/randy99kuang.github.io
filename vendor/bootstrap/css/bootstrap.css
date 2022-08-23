@@ -35,6 +35,11 @@
   object-fit: fill;
 }
 
+.mySlides2 {
+  display: none;
+  object-fit: fill;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
