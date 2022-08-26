@@ -36,7 +36,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   
-  setTimeout(plusSlides(1), 5000); // Change image every 6 seconds
+  // setTimeout(plusSlides(1), 5000); // Change image every 6 seconds
 }
 
 //setInterval(plusSlides(1), 5000);
+
+function looper(n) {
+  setInterval(plusSlides(1), 3000);
+}
+
+setTimeout(looper(1), 1000);
