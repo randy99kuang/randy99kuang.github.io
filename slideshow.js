@@ -41,8 +41,9 @@ function showSlides(n) {
 
 //setInterval(plusSlides(1), 5000);
 
-function looper(n) {
-  setInterval(plusSlides(1), 3000);
+function looper() {
+  plusSlides(1);
+  setTimeout(looper(), 3000);
 }
 
-setTimeout(looper(1), 1000);
+setTimeout(looper(), 1000);
