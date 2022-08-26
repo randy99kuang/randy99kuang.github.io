@@ -1,4 +1,5 @@
 var slideIndex = 1;
+var timer = 0;
 // var slideIndex = [1,1];
 // var slideId = ["mySlides", "mySlides2"]
 
@@ -9,12 +10,14 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+  timer = 0;
   showSlides(slideIndex += n);
   //showSlides(slideIndex[numSlide] += n, numSlide);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
+  timer = 0;
   showSlides(slideIndex = n);
 }
 
@@ -41,9 +44,18 @@ function showSlides(n) {
 
 //setInterval(plusSlides(1), 5000);
 
+
+
+// to set auto-interval, just do TRESHOLD / 10 = num seconds you want per interval
+var THRESHOLD = 50;
 function looper() {
-  plusSlides(1);
-  setTimeout(looper(), 3000);
+  timer += 5;
+  
+  if (timer >= THRESHOLD) {
+  	timer = 0;
+    plusSlides(1);
+  }
+  setTimeout(looper, 500);
 }
 
-setTimeout(looper(), 1000);
+looper();
