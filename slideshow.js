@@ -38,4 +38,4 @@ function showSlides(n) {
   //setTimeout(showSlides, 6000); // Change image every 6 seconds
 }
 
-setTimeout(plusSlides(1), 5000);
+setInterval(plusSlides(1), 5000);
