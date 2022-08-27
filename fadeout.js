@@ -17,7 +17,7 @@
 $(function() {
   $('body').removeClass('fade-out');
   // fade in text hopefully???
-  $("#fader").delay(5000).animate({"opacity": "1"}, 700);
+  //$("#fader").delay(5000).animate({"opacity": "1"}, 700);
 });
 
 
