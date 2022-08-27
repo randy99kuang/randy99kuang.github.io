@@ -75,14 +75,14 @@ showSlides2(slideIndex2);
 // Next/previous controls
 function plusSlides2(n) {
   timer2 = 0;
-  showSlides(slideIndex2 += n);
+  showSlides2(slideIndex2 += n);
   //showSlides(slideIndex[numSlide] += n, numSlide);
 }
 
 // Thumbnail image controls
 function currentSlide2(n) {
   timer2 = 0;
-  showSlides(slideIndex2 = n);
+  showSlides2(slideIndex2 = n);
 }
 
 function showSlides2(n) {

@@ -9,12 +9,12 @@
 
 /* Slideshow container */
 .slideshow-container {
-  /* margin-top: 2%;
+  margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 2%; */
+  margin-bottom: 2%;
   margin: auto;
-  /* max-width: 1500px; */
+  max-width: 1500px;
   position: relative;
 }
 
