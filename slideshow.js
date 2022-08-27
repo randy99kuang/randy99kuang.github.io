@@ -55,7 +55,7 @@ function looper() {
   setTimeout(looper, 500);
 }
 
-looper();
+setTimeout(looper, 1);
 
 
 //////////////// SLIDESHOW 2 on index.html
@@ -119,4 +119,4 @@ function looper2() {
   setTimeout(looper2, 500);
 }
 
-looper2();
+setTimeout(looper2, 1);
