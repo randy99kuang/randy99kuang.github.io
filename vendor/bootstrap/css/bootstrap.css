@@ -195,7 +195,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  /* color: #212529; */
+  color: #f5f5f5;
   text-align: left;
   background: url(images/creighton_hall_sunset.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
