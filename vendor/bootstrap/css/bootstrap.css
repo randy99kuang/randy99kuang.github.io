@@ -10826,9 +10826,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
-#fader {
+/* unused for now
+just for index kuang resaerch lab title thing */
+/* #fader {
   opacity: 0;
-}
+} */
 /* For the top bar above "Kuang Research Lab" on the index.html  */
 .fade-out-bars-top{
   margin-top: 22vh; 
