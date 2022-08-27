@@ -10873,7 +10873,7 @@ just for index kuang resaerch lab title thing */
 }
 
 #content-wrap {
-  padding-bottom: 9rem;    /*Footer height*/
+  padding-bottom: 7.5rem;    /*Footer height*/
 }
 
 /* .page-footer {
@@ -10887,5 +10887,5 @@ just for index kuang resaerch lab title thing */
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 9rem;           /* Footer height */
+  height: 7.5rem;           /* Footer height */
 }
