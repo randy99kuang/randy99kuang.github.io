@@ -1,4 +1,5 @@
 
+$("#fader").delay(5000).animate({"opacity": "1"}, 700);
 
 $(window).scroll(function(){
   $(".fade-out-bars-top").css("opacity", 1.2 - $(window).scrollTop() / 200);
@@ -16,7 +17,7 @@ $(window).scroll(function(){
 $(function() {
   $('body').removeClass('fade-out');
   // fade in text hopefully???
-  $("#fader").delay(5000).animate({"opacity": "1"}, 700);
+  
 });
 
 
