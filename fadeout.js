@@ -1,6 +1,4 @@
 
-
-
 $(window).scroll(function(){
   $(".fade-out-bars-top").css("opacity", 1.2 - $(window).scrollTop() / 200);
 });
@@ -13,19 +11,18 @@ $(window).scroll(function(){
   $(".fade-out-bars-bottom").css("opacity", 1.8 - $(window).scrollTop() / 200);
 });
 
-
 $(function() {
-  $('body').removeClass('fade-out');
-  // fade in text hopefully???
-  //$("#fader").delay(5000).animate({"opacity": "1"}, 700);
+  $('.top-bar-loading').removeClass('invisible');
+  $('.bottom-bar-loading').removeClass('invisible');
+  $('.transparent-card-loading').removeClass('invisible');
+
+
+  setTimeout(function() {
+    $('.overlay-loading').removeClass('will-fade-out');
+  }, 1500);  
+
+  setTimeout(function() {
+    $('#nukeIt').remove();
+  }, 2500);  // Delay of 3 seconds
+
 });
-
-
-// var element = document.getElementById("myDIV");
-// element.classList.add("fade-out");
-
-
-// $(function() {
-//   var element = document.getElementById("myDIV");
-//   element.classList.remove('fade-out');
-// });

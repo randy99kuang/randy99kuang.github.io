@@ -12,18 +12,173 @@ body {
     background-size: cover;
     -o-background-size: cover;
 
-    opacity: 1;
+    opacity: 1; 
     
     transition: opacity;
-    transition-duration: 1.5s;
+    /* Traditionally causes duration that rest of webpage fades in */
+    transition-duration: 1.5s; 
+    /* traditionally is delay until fade begins */
     transition-delay: 1s;
 }
 
-body.fade-out {
+.overlay-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #343a40;
+    color: white;
+
+
+    /* eventually it must get to 0 */
+    opacity: 0; 
+    
+    transition: opacity;
+    /* Traditionally causes duration that rest of webpage fades in */
+    transition-duration: 1s; 
+    /* traditionally is delay until fade begins */
+    /* transition-delay: 1s; */
+}
+
+
+.top-bar-loading {
+    margin-top: 22vh; 
+    margin-bottom: 1.5vh; 
+    height: 7px; 
+    background-color: white; 
+    width: 80%;
+
+    /* eventually it must get to 0 */
+    opacity: 1; 
+    
+    transition: opacity;
+    /* Traditionally causes duration that rest of webpage fades in */
+    transition-duration: 1.3s; 
+    /* traditionally is delay until fade begins */
+    transition-delay: 0.20s;
+}
+
+.bottom-bar-loading {
+    margin-top: 0vh; 
+    height: 7px; 
+    background-color: white; 
+    margin-bottom: 22vh; 
+    width: 80%;
+
+    /* eventually it must get to 0 */
+    opacity: 1; 
+    
+    transition: opacity;
+    /* Traditionally causes duration that rest of webpage fades in */
+    transition-duration: 1.3s; 
+    /* traditionally is delay until fade begins */
+    transition-delay: 0.20s;
+}
+
+.transparent-card-loading {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0);
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 0.25rem;
+
+    align-items: center;
+
+    color: ghostwhite;
+    font-size: 9vw;
+    color: var(--light);
+
+    white-space: nowrap;
+    height: 15vw;
+
+    /* eventually it must get to 0 */
+    opacity: 1; 
+
+    transition: opacity;
+    /* Traditionally causes duration that rest of webpage fades in */
+    transition-duration: 1s; 
+    /* traditionally is delay until fade begins */
+    transition-delay: 0.70s;
+}
+
+/* .fade-out {
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+} */
+/* 
+.fade-in-card {
+opacity: 1;
+transition: opacity 0.1s ease-in-out;
+} */
+
+/* SHOULD THIS BE ADDED? */
+
+/* 
+body *:not(.fade-in-card) {
+opacity: 0;
+transition: opacity 6s ease-in-out;
+transition-delay: 4s;
+} */
+
+.invisible {
     opacity: 0;
+    /* transition: none; */
+
+    transition: opacity;
+    /* Traditionally causes duration that rest of webpage fades in */
+    transition-duration: 1s; 
+}
+
+.will-fade-out {
+    opacity: 1;
     transition: none;
 }
 
+/* body.fade-out {
+    opacity: 0;
+    transition: none;
+} */
+
 html {
     background-color:#343a40;
+}
+
+
+.fade-out {
+opacity: 0;
+transition: none;
+}
+
+
+
+
+/* unused for now
+just for index kuang resaerch lab title thing */
+/* #fader {
+opacity: 0;
+} */
+/* For the top bar above "Kuang Research Lab" on the index.html  */
+.fade-out-bars-top{
+margin-top: 22vh; 
+margin-bottom: 1.5vh; 
+height: 7px; 
+background-color: white; 
+width: 80%;
+}
+
+/* For the bottom bar above "Kuang Research Lab" on the index.html  */
+.fade-out-bars-bottom{
+margin-top: 0vh; 
+height: 7px; 
+background-color: white; 
+margin-bottom: 22vh; 
+width: 80%;
 }

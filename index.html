@@ -20,12 +20,20 @@
 
   <!-- <link href="vendor/bootstrap/css/slideshow.css" rel="stylesheet"> -->
 
+  <!-- Custom styles for this template -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="fadeout.js"></script>
 </head>
 
+
+
+
+<!-- Actual Body -->
 <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+
     <div class="container">
       <a class="navbar-brand" href="https://ag.purdue.edu/ansc/Pages/default.aspx" target="_blank">Purdue University</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -233,16 +241,37 @@
   <!-- Footer -->
 
   <!-- Bootstrap core JavaScript -->
-  <script>document.body.className += ' fade-out';</script>
+  <!-- <script>document.body.className += ' fade-out';</script> -->
+  <!-- <script>document.body.className += ' fade-out';</script> -->
+
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="slideshow.js"></script>
-  <script src="fadeout.js"></script>
-
-
   
 
 
 </body>
+
+<!-- Overlay "loading screen" -->
+<div class="overlay-loading will-fade-out" id="nukeIt">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top invisible">
+    <!-- For offsetting -->
+    <div class="container">
+      <a class="navbar-brand" href="https://ag.purdue.edu/ansc/Pages/default.aspx" target="_blank">Purdue University</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    
+    <hr class="top-bar-loading invisible">
+    <!-- id="myDIV" -->
+    <div class="transparent-card-loading invisible"> 
+      Kuang Research Lab
+    </div>
+    <hr class="bottom-bar-loading invisible">
+
+  </div>
+</div>
 
 </html>

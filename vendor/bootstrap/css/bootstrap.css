@@ -10813,41 +10813,8 @@ a.text-dark:hover, a.text-dark:focus {
 
   white-space: nowrap;
   height: 15vw;
-
-  /* opacity: 1;
-    
-  transition: opacity;
-  transition-duration: 1.5s;
-  transition-delay: 1s; */
-}
-.fade-out {
-  opacity: 0;
-  transition: none;
 }
 
-
-/* unused for now
-just for index kuang resaerch lab title thing */
-/* #fader {
-  opacity: 0;
-} */
-/* For the top bar above "Kuang Research Lab" on the index.html  */
-.fade-out-bars-top{
-  margin-top: 22vh; 
-  margin-bottom: 1.5vh; 
-  height: 7px; 
-  background-color: white; 
-  width: 80%;
-}
-
-/* For the bottom bar above "Kuang Research Lab" on the index.html  */
-.fade-out-bars-bottom{
-  margin-top: 0vh; 
-  height: 7px; 
-  background-color: white; 
-  margin-bottom: 22vh; 
-  width: 80%;
-}
 
 
 .google-maps-picture {
