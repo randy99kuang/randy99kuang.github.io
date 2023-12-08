@@ -19,6 +19,7 @@ $(function() {
 
   setTimeout(function() {
     $('.overlay-loading').removeClass('will-fade-out');
+    // $('body').removeClass('invisible');
   }, 1500);  
 
   setTimeout(function() {
